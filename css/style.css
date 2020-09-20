@@ -1,0 +1,128 @@
+body{
+    background-color: #d3d3d3;
+    font-family: Oswald;
+    line-height: 1.2em;
+    font-size: 17px;
+
+}
+
+p{
+    color: #474747;
+}
+
+.container{
+    background-color: white;
+    border: 1px solid #5d5d5d;
+    width: 800px;
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 10px;
+}
+
+.big-logo{
+    margin-bottom: 20px;
+    max-width: 230px;
+}
+
+nav{
+    border-top: 2px solid #771510;
+    border-bottom: 2px solid #771510;
+    width: 98%;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.title{
+    font-size: 50px;
+    font-weight: 600;
+}
+.button{
+    width: 85px;
+    height: 35px;
+    padding-top: 8px;
+    background-color: black;
+    text-align: center;
+    margin-top: 26px;
+    margin-left: 20px;
+}
+
+.textButton{
+    color: white;
+}
+
+main{
+    padding-right: 12%;
+    padding-left: 12%;
+    margin-top: 25px;
+}
+
+.presentation{
+    background-color: #eeeeee;
+    padding: 25px;
+    margin-bottom: 30px;
+}
+
+h2{
+    font-size: 30px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.small-logo{
+    display: block;
+    margin: 0 auto;
+    margin-top: 40px;
+    margin-bottom: 25px;
+    max-width: 140px;
+}
+
+.line{
+    border: 1px solid #565756;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.description{
+    text-align: center;
+    font-style: italic;
+    font-size: 14px;
+    font-weight: lighter;
+    
+}
+
+h3{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: #771510;
+    font-weight: 800;
+    font-size: 23px;
+    text-align: center;
+}
+
+.titleActors{
+    margin-bottom: 20px;
+}
+.actor{
+    height: 30px;
+    background-color: #eeeeee;
+    border-radius: 50px;
+    margin-bottom: 8px;
+    text-align: center;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+a{
+    color: #771510;
+}
